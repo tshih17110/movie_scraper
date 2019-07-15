@@ -7,6 +7,5 @@ def main():
 	start = time.time()
 	movies = MovieScraper(input_thread).multithread_scrape()
 	end = time.time()
-	print('Time taken to scrape: {0:.2f} seconds'.format(end - start))
-
+	print('Scraping time: {0:.2f} seconds'.format(end - start))
 main()
